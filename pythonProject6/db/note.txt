@@ -1,0 +1,4 @@
+member_dao.py
+- crud함수 구현: 회원가입, 회원탈퇴, 회원정보, 로그인처리
+
+use_member.py
