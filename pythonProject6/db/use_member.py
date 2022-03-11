@@ -40,10 +40,10 @@ if __name__ == '__main__':
             messagebox.showinfo("결과", "검색 결과는 " + row[0] + ", " +
                                 row[1] + ", " + row[2] + ", " + row[3])
         elif choice == 5:
-                all = all()
+                result = all()
                 print("id       name        url                    img")
                 print("-" * 50)
-                for one in all:
+                for one in result:
                     print("%s       %s       %s           %s" %one)
         elif choice == 6:
             id = input("id 입력>>>")
