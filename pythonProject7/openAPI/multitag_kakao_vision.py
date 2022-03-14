@@ -8,7 +8,8 @@ API_URL = 'https://dapi.kakao.com/v2/vision/multitag/generate'
 MYAPP_KEY = 'b8b4f7372b3b310b3cca48bfe7fb2d8d'
 
 def tag(image_url):
-    headers = {'Authorization': 'KakaoAK {}'.format(MYAPP_KEY)}
+    headers = {'Authorization': 'KakaoAK {}'.format(MYAPP_KEY)
+               }
 
     try:
         data = { 'image_url' : image_url}
